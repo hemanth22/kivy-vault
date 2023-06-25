@@ -22,7 +22,7 @@ jobs:
           pip3 install --user --upgrade buildozer
         
       - name: Install dependencies
-        run: buildozer android debug
+        run: buildozer android debug --android.accept-licenses
         id: buildozer
       
       - name: Upload artifacts
