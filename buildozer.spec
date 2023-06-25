@@ -1,10 +1,10 @@
 [app]
 
 # (str) Title of your application
-title = kivy-vault
+title = kivyvault
 
 # (str) Package name
-package.name = kivy-vault
+package.name = kivyvault
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.test
@@ -46,7 +46,7 @@ requirements = python3,kivy
 #garden_requirements =
 
 # (str) Presplash of the application
-#presplash.filename = %(source.dir)s/data/presplash.png
+presplash.filename = %(source.dir)s/data/presplash.png
 
 # (str) Icon of the application
 icon.filename = %(source.dir)s/data/icon.png
