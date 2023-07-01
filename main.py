@@ -17,8 +17,11 @@ class MyGridLayout(Widget):
     oldsalary = ObjectProperty()
 
     def simpleiint(self):
-        with open('data.json') as f:
-            data = json.load(f)
+        #with open('data.json') as f:
+        #    data = json.load(f)
+
+        jdata = '{"hemanth": "bitra","priyadharshini": "purushotham"}'
+        data = json.loads(jdata)
 
         oldsalary = self.oldsalary.text
         result = data.get(oldsalary)
